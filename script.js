@@ -26,7 +26,7 @@ async function iceNfire() {
         // the API data is stored in dataOfBooks
         for (let i = 0; i < dataOfBooks.length; i++) {
             row.innerHTML += `
-                <div class="col-4 text-center mt-2 mb-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center mt-2 mb-4  d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
                 <img src="images/${[i]}.jpg" class="card-img-top" alt="..." style ="height: 350px">
                 <div class="card-body">
