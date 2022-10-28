@@ -1,0 +1,20 @@
+.hide{
+    display: none;
+}
+
+.my-bg{
+    background-color: rgb(0, 0, 0);
+}
+.position{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.position-my{
+    position: sticky;
+    top: 48px;
+    z-index: 99;
+    filter: drop-shadow(0 0 0.55rem rgba(29, 29, 29, 0.082));
+    margin-bottom: 25px;
+}
