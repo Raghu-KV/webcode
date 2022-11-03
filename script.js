@@ -83,12 +83,13 @@ async function iceNfire() {
                         let char5 = await char.json()
                         arr.push(char5.name)
                     }
-                    alert(`                1st Character : ${arr[0]}
+                    alert(`
+                1st Character : ${arr[0]}
                 2nd Character : ${arr[1]}
                 3rd Character : ${arr[2]}
                 4th Character : ${arr[3]}
                 5th Character : ${arr[4]}`)
-                    arr = []
+                    // arr = []
                 })
             } catch (err) { console.log(err)}
         }
